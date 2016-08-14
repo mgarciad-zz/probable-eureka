@@ -33,7 +33,17 @@ National Survey of Family Growth (NSFG) is conducted by the U.S. Centers for Dis
 * representative - every member of the target population has an equal chance of participating
 * oversampling - deliberately sampling groups at rates higher than their representation in a population, used to make sure that group is large enough to draw valid statistical inferences, drawback is that it is not as easy to draw conclusions about the general population
 
+Tables and Records
+* record - each line in the respondents file, contains information about one respondent
+* fields - variables that make up a record
+* table - collection of records
 
+### NSFG Pregnancy Records
+1. caseid - integer ID of the respondent
+2. prglenth - duration of the pregnancy in weeks
+3. outcome - integer code for the outcome of the pregnancy (1 indicates a live birth)
+4. birthord - birth order of each live birth, the code for a first child is 1, field is blank for outcomes other than live birth
+5. finalwgt - statistical weight associated with the respondent, floating-point value that indicates the number of people in the U.S. population that the respondent represents
 
-
+These variables are recodes, which means that they do not come from raw data directly but instead are calculated using the raw data. 
 
