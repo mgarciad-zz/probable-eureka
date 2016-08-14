@@ -2,8 +2,8 @@
 Think Stats: Probability and Statistics for Programmers
 Notes from reading and working through exercises in Think Stats book by Allen B. Downey, published by O'Reilly Media.
 
-http://greenteapress.com/thinkstats/
-https://github.com/AllenDowney/ThinkStats2
+* http://greenteapress.com/thinkstats/
+* https://github.com/AllenDowney/ThinkStats2
 
 # Definitions
 1. probability - study of random events
