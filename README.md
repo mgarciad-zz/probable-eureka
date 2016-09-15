@@ -76,15 +76,11 @@ National Survey of Family Growth (NSFG) is conducted by the U.S. Centers for Dis
 	* last line of a Series includes the variable name, length, and data type
 	* elements in a Series can be accessed using indices and slices
 		* using index produces a value (e.g. int64)
-		`pregordr[0]`
+		`python pregordr[0]`
 		* using slice produces another Series (e.g. list)
 		`pregordr[2:5]` 
 
-Tables and Records
-* fields - variables that make up a record
-* table - collection of records
-
-### NSFG Pregnancy Records
+### NSFG Variables
 1. caseid - integer ID of the respondent
 2. prglenth - duration of the pregnancy in weeks
 3. outcome - integer code for the outcome of the pregnancy (1 indicates a live birth)
